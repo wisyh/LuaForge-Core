@@ -123,11 +123,9 @@ afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("release") {
-                // 指定要发布的组件
                 from(components["release"])
                 
-                // 配置 groupId - 改成你的GitHub用户名
-                groupId = "com.github.wisyh"
+                groupId = "io.github.wisyh"
                 artifactId = "LuaForge-Core"
                 version = "1.0.0"
             }
