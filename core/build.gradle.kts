@@ -125,9 +125,9 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 
-                groupId = "io.github.wisyh"
+                groupId = "com.github.wisyh"
                 artifactId = "LuaForge-Core"
-                version = "1.0.0"
+                version = "1.0.4"
             }
         }
     }
