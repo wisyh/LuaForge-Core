@@ -37,12 +37,12 @@ browser = "1.10.0-alpha04"
 navigation = "2.9.7"
 
 # Material Design
-material = "1.14.0-alpha09"
+material = "1.13.0"
 
 # 网络与解析
 gson = "2.13.2"
 okhttp = "5.3.2"
-glide = "5.0.5"  # 同时用于 glide 和 okhttp3-integration
+glide = "5.0.5"
 
 [libraries]
 # Navigation
